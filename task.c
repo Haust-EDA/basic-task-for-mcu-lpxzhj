@@ -18,13 +18,26 @@ void delay_ms(unsigned int x)  // 延时函数
 
 int main(void)
 {
-    """
-    在下方编写你的代码
-    """
-    
+while(1)
+	{
+		P2=0xFE;
+		delay_ms(500);
+		P2=0xFD;
+		delay_ms(500);
+		P2=0xFB;
+		delay_ms(500);
+		P2=0xF7;
+		delay_ms(500);
+		P2=0xEF;
+		delay_ms(500);
+		P2=0xDF;
+		delay_ms(500);
+		P2=0xBF;
+		delay_ms(500);
+		P2=0x7F;
+		delay_ms(500);
 
- 
-
+	}
     return 0;
 }
 
